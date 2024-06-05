@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Employee</title>
+<link rel="stylesheet" href="EmployeeTaskManagement.css">
+</head>
+<body>
+	<div class="navbar">
+ 		 <a href="index.html">Home</a>
+	</div>
+    <div class="container">
+		
+        <h1>Add Employee</h1>
+         <form action="employeeServlet" method="post">
+            <input type="hidden" name="action" value="addEmployee">
+            <input type="text" name="empname" placeholder="Employee Name" required>
+            <input type="number" name="empage" placeholder="Age" required>
+            <input type="number" name="empsalary" placeholder="Salary" required>
+          	<span style="display: flex;">
+            <button type="submit" onclick="showDialog()">Add Employee</button>
+            <button type="reset">Reset</button>
+            </span>
+        </form>
+		
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Employee</title>
+<link rel="stylesheet" href="EmployeeTaskManagement.css">
+</head>
+<body>
+	<div class="navbar">
+ 		 <a href="index.html">Home</a>
+	</div>
+    <div class="container">
+        <h1>Add Task</h1>
+         <form action="employeeServlet" method="post">
+            <input type="hidden" name="action" value="addTask">
+            <input type="text" name="tname" placeholder="Enter Task Name" required>
+           <span style="display: block;">
+            <button type="submit">Add Task</button>
+            <button type="reset">Reset</button>
+            </span>
+        </form>
+    </div>
+</body>
+</html>

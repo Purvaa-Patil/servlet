@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee Task Manager</title>
+<link rel="stylesheet" href="EmployeeTaskManagement.css">
+<style>
+	 body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+         background: linear-gradient(to right, rgb(39, 221, 30), rgb(0, 255, 255));
+    }
+     .container {
+	
+        max-width: 80%;
+        resize: both; /* Enables both horizontal and vertical resizing */
+        overflow: auto;
+        margin: 50px auto;
+        padding: 20px;
+        background-color:rgb(0, 0, 0,0.3);;
+        backdrop-filter: blur(15px);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+    }
+	.card img {
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+    
+}
+ a{
+		text-decoration: none;
+		color: black;
+		
+	}
+	a:visited{
+		color: black;
+	}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <h3>Select an Action</h3>
+        <div class="actions">
+           <div class="card"><a href="addEmployee.html"><img src="Images/add-user.png" alt="get"><br>Add Employee</a></div>
+           <div class="card"><a href="removeEmployee.html"><img src="Images/user.png" alt="get"><br>Remove Employee</a></div>
+           <div class="card"><a href="searchEmployee.html"><img src="Images/searchemp.png" alt="get"><br>Search Employee</a></div>
+           <div class="card"><a href="updateEmployee.html"><img src="Images/user (1).png" alt="get"><br>Update Employee</a></div>
+           <div class="card"><a href="addTask.html"><img src="Images/addtask.png" alt="get"><br>Add Task</a></div>
+           <div class="card"><a href="removeTask.html"><img src="Images/removetask.png" alt="get"><br>Remove Task</a></div>
+           <div class="card"><a href="searchTask.html"><img src="Images/searchtask.png" alt="get"><br>Search Task</a></div>
+           <div class="card"><a href="updateEmployee.html"><img src="Images/updatetask.png" alt="get"><br>Update Task</a></div>
+           <div class="card"><a href="getAllEmployee.jsp"><img src="Images/teamwork.png" alt="get"><br>Get All Employee</a></div>
+           <div class="card"><a href="getAllTask.jsp"><img src="Images/tasklist.png" alt="get"><br>Get All Task</a></div>
+           <div class="card"><a href="assignTask.html"><img src="Images/assigntask.png" alt="get"><br>Assign Task</a></div>
+          </div>
+       
+        
+    </div>
+	
+    
+</body>
+</html>

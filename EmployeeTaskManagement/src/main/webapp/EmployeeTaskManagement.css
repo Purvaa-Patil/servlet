@@ -1,0 +1,96 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+     .navbar {
+            overflow: hidden;
+            background: linear-gradient(to right, rgb(39, 221, 30), rgb(56, 182, 192));
+            text-align: right;
+            font-size: 30px;
+            height: 50px;
+            
+        }
+    .navbar a{
+		 color: white;
+		 text-decoration: none;
+		 padding-right: 30px;
+	}
+	.navbar a:hover{
+		font-size: 40px;
+	}
+
+     .container {
+	
+        max-width: 80%;
+        resize: both; /* Enables both horizontal and vertical resizing */
+        overflow: auto;
+        margin: 50px auto;
+        padding: 20px;
+       background-color: #ffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    .actions{
+    display:flex;
+    flex-wrap:wrap;
+    }
+    .card{
+	
+    	margin:10px;
+        padding: 10px;
+        border-radius: 8px;
+        color: #fff;
+        max-width:200px;
+        flex-grow:1;
+        flex-basics:200;
+        border-radius: 4px;
+        transition: transform 0.3s ease-in-out;
+        justify-content: center; /* Align items vertically in the center */
+        align-items: center; /* Align items horizontally in the center */
+        text-align: center; 
+    }
+    .card:hover{
+		 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		  transform: scale(1.1); /* Zoom in on hover */
+	}
+    
+    h1, h3 {
+        text-align: center;
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    button {
+        
+       
+        width: 50%;
+        margin : 10px;
+        padding: 10px;
+        background: linear-gradient(to right, rgb(39, 221, 30), rgb(56, 182, 192));
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+       
+        
+    }
+    button:hover {
+        background-color: rgb(67, 154, 71);
+        font-size: 15px;
+    }
+   
+	
+	button a:visited{
+		color: white;
+	}
+	
+	
